@@ -1,0 +1,16 @@
+2024-12-24 23:09:57,668 - scrapper - INFO - Обработка страницы: https://dzen.ru/topic/beauty?tab=articles
+2024-12-24 23:09:59,109 - scrapper - INFO - Ссылка №1:1 обработана.
+2024-12-24 23:09:59,111 - scrapper - INFO - Ссылка №1:2 обработана.
+2024-12-24 23:09:59,111 - scrapper - INFO - Ссылка №1:3 обработана.
+2024-12-24 23:09:59,111 - scrapper - INFO - Ссылка №1:4 обработана.
+2024-12-24 23:09:59,112 - scrapper - INFO - Ссылка №1:5 обработана.
+2024-12-24 23:09:59,112 - scrapper - INFO - Ссылка №1:6 обработана.
+2024-12-24 23:09:59,112 - scrapper - INFO - Ссылка №1:7 обработана.
+2024-12-24 23:09:59,112 - scrapper - INFO - Ссылка №1:8 обработана.
+2024-12-24 23:09:59,113 - scrapper - INFO - Ссылка №1:9 обработана.
+2024-12-24 23:09:59,113 - scrapper - INFO - Ссылка №1:10 обработана.
+2024-12-24 23:09:59,113 - scrapper - INFO - Ссылка №1:11 обработана.
+2024-12-24 23:09:59,113 - scrapper - INFO - Ссылка №1:12 обработана.
+2024-12-24 23:09:59,114 - scrapper - INFO - Объект https://dzen.ru/api/web/v1/topic-channel-more?country_code=ru&tab=articles&next_page_id=6765b5474d3ad65a155de562%3A1734733646073%3A0&topic_identity=5169&clid=1400&_csrf=886c5928adfbb4dec440f26edb6b7c6ff85d8c86-1735071009026-0-9044345941735071008%3A0&lang=ru извлечен из текста.
+2024-12-24 23:09:59,115 - scrapper - INFO - Обработка страницы: https://dzen.ru/api/web/v1/topic-channel-more?country_code=ru&tab=articles&next_page_id=6765b5474d3ad65a155de562%3A1734733646073%3A0&topic_identity=5169&clid=1400&_csrf=886c5928adfbb4dec440f26edb6b7c6ff85d8c86-1735071009026-0-9044345941735071008%3A0&lang=ru
+2024-12-24 23:09:59,456 - scrapper - ERROR - Ошибка при обработке веб-страницы https://dzen.ru/api/web/v1/topic-channel-more?country_code=ru&tab=articles&next_page_id=6765b5474d3ad65a155de562%3A1734733646073%3A0&topic_identity=5169&clid=1400&_csrf=886c5928adfbb4dec440f26edb6b7c6ff85d8c86-1735071009026-0-9044345941735071008%3A0&lang=ru: 'shareLink'

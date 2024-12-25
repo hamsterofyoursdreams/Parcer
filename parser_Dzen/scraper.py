@@ -51,11 +51,24 @@ def fetch_links_to_file1():
                     break
             else:
                 json_data = response.json()
-                # user = json_data['more']['link']
-                user = [post["id"] for post in json_data['shareLink']]
-                logger.warning("Не удалось найти список с содержимым на странице %s", user)
 
+                link_on_page = 1
+                for item in json_data['items']:
+                    link = item['shareLink']
 
+                    # Формат записи: "page:link_on_page | ссылка | категории"
+                    link_number = f"{page_count}:{link_on_page}"
+
+                    links_line = f"{link_number} | {link} "
+                    links.append(links_line)
+                    logger.info("Ссылка №%s обработана.", link_number)
+
+                    link_on_page += 1
+                try:
+                    url = json_data['more']['link']
+                except Exception as e:
+                    logger.error("Ошибка при нахождении ссылки на следующую страницу %s: %s", url, str(e))
+                    break
             page_count += 1
 
         except Exception as e:
